@@ -40,3 +40,6 @@ out/
 .classpath
 .project
 .settings/
+
+# others
+notas.txt
