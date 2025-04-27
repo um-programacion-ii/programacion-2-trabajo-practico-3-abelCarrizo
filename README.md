@@ -255,7 +255,8 @@ sistemaGestionBiblioteca/
     │               │   │── Estado.java         # Enum de estados
     │               │   └── Prestamo.java       # Modelo de Prestamo
     │               └── servicios
-    │                   └── Categoria.java      # Servicio de Categoria
+    │                   │── Catalogo.java           # Servicio de Catalogo
+    │                   └── SistemaPrestamos.java   # Servicio de Prestamo
     │                   
     └── test    # Pruebas del proyecto
         └── java
@@ -264,7 +265,7 @@ sistemaGestionBiblioteca/
                     ├── modelos
                     │   └── LibroTest.java      # Pruebas de Libro
                     └── servicios
-                        └── CategoriaTest.java  # Pruebas de Catalogo 
+                        └── CatalogoTest.java   # Pruebas de Catalogo 
 ```
 
 ---
