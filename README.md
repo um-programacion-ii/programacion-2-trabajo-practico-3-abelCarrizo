@@ -252,7 +252,8 @@ sistemaGestionBiblioteca/
     │           └── biblioteca
     │               ├── modelos
     │               │   │── Libro.java          # Modelo de Libro
-    │               │   └── Estado.java         # Enum de estados
+    │               │   │── Estado.java         # Enum de estados
+    │               │   └── Prestamo.java       # Modelo de Prestamo
     │               └── servicios
     │                   └── Categoria.java      # Servicio de Categoria
     │                   
