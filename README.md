@@ -1,28 +1,24 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jpLeSJQi)
 # Sistema de Gestión de Biblioteca - Práctica de Testing
-
 ![Java](https://img.shields.io/badge/Java-21-orange)
 ![JUnit5](https://img.shields.io/badge/JUnit-5.9.2-green)
 ![Mockito](https://img.shields.io/badge/Mockito-5.3.1-blue)
 ![Maven](https://img.shields.io/badge/Maven-3.9.0-red)
 
+<details>
+<summary>
+    📋<strong>Mostrar consigna completa</strong>
+</summary>
+
 ## Tiempo Estimado y Recomendaciones
 - **Tiempo estimado de realización:** 15 horas
 - **Recomendación:** Se sugiere leer la consigna completa antes de comenzar con el desarrollo para tener una visión general del proyecto y planificar adecuadamente el trabajo.
-
-## Identificación del Alumno
-- **Nombre:** Abel
-- **Apellido:** Carrizo
-- **Legajo:** 59164
 
 ## Importante
 - La rama `main` está protegida y no se pueden hacer commits directos sobre ella
 - Todo el trabajo debe realizarse en ramas feature siguiendo el patrón `feature/issue-numero-descripcion`
 - Los cambios deben ser enviados mediante Pull Requests
 - Cada Pull Request debe estar asociado a un Issue específico
-
-## Objetivo
-Este proyecto tiene como objetivo que los estudiantes practiquen y desarrollen habilidades en testing unitario utilizando JUnit5 y Mockito en Java. A través de la implementación de un sistema de gestión de biblioteca, los estudiantes aprenderán a escribir pruebas unitarias efectivas y a utilizar mocks para simular dependencias.
 
 ## Requisitos Previos
 - Java 21 o superior
@@ -226,3 +222,17 @@ El uso de Inteligencia Artificial (IA) como herramienta de asistencia en el desa
 - [Documentación de JUnit5](https://junit.org/junit5/docs/current/user-guide/)
 - [Documentación de Mockito](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
 - [Guía de Maven](https://maven.apache.org/guides/)
+</details>
+
+## 📑 Índice
+- [📌 Objetivo General](#-objetivo-general)
+- [👨‍🎓 Identificación del Alumno](#-identificación-del-alumno)
+
+## 📌 Objetivos Generales
+Este proyecto tiene como objetivo desarrollar habilidades en testing unitario utilizando JUnit5 y Mockito en Java. A través de la implementación de un sistema de gestión de biblioteca, se aprenderán a escribir pruebas unitarias efectivas y a utilizar mocks para simular dependencias.
+
+## 👨‍🎓 Identificación del Alumno
+- **Nombre:** Abel
+- **Apellido:** Carrizo
+- **Legajo:** 59164
+- 
