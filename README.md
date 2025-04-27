@@ -265,7 +265,8 @@ sistemaGestionBiblioteca/
                     ├── modelos
                     │   └── LibroTest.java      # Pruebas de Libro
                     └── servicios
-                        └── CatalogoTest.java   # Pruebas de Catalogo 
+                        │── CatalogoTest.java           # Pruebas de Catalogo 
+                        └── SistemaPrestamosTest.java   # Pruebas de Sistema de Prestamos
 ```
 
 ---
