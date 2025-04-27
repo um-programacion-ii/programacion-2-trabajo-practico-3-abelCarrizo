@@ -260,8 +260,10 @@ sistemaGestionBiblioteca/
         └── java
             └── app
                 └── biblioteca
-                    └── recursos
-                        └── LibroTest.java      # Pruebas de Libro
+                    ├── modelos
+                    │   └── LibroTest.java      # Pruebas de Libro
+                    └── servicios
+                        └── CategoriaTest.java  # Pruebas de Catalogo 
 ```
 
 ---
