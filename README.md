@@ -257,7 +257,8 @@ sistemaGestionBiblioteca/
     │               │   └── Usuario.java        # Modelo de Usuario
     │               └── servicios
     │                   │── Catalogo.java           # Servicio de Catalogo
-    │                   └── SistemaPrestamos.java   # Servicio de Prestamo
+    │                   │── GestionUsuarios.java    # Servicio de Gestion de Usuarios
+    │                   └── SistemaPrestamos.java   # Servicio de Prestamos
     │                   
     └── test    # Pruebas del proyecto
         └── java
