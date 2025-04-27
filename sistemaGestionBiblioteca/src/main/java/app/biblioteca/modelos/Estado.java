@@ -1,4 +1,4 @@
-package app.biblioteca.utils;
+package app.biblioteca.modelos;
 
 public enum Estado {
     DISPONIBLE,
