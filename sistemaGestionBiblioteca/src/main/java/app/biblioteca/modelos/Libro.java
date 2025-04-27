@@ -1,6 +1,4 @@
-package app.biblioteca.recursos;
-
-import app.biblioteca.utils.Estado;
+package app.biblioteca.modelos;
 
 public class Libro {
     private String isbn;

@@ -1,6 +1,5 @@
-package app.biblioteca.recursos;
+package app.biblioteca.modelos;
 
-import app.biblioteca.utils.Estado;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
