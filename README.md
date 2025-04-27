@@ -227,6 +227,7 @@ El uso de Inteligencia Artificial (IA) como herramienta de asistencia en el desa
 ## 📑 Índice
 - [📌 Objetivo General](#-objetivo-general)
 - [👨‍🎓 Identificación del Alumno](#-identificación-del-alumno)
+- [📂 Estructura del Proyecto](#-estructura-del-proyecto)
 
 ## 📌 Objetivos Generales
 Este proyecto tiene como objetivo desarrollar habilidades en testing unitario utilizando JUnit5 y Mockito en Java. A través de la implementación de un sistema de gestión de biblioteca, se aprenderán a escribir pruebas unitarias efectivas y a utilizar mocks para simular dependencias.
@@ -235,4 +236,49 @@ Este proyecto tiene como objetivo desarrollar habilidades en testing unitario ut
 - **Nombre:** Abel
 - **Apellido:** Carrizo
 - **Legajo:** 59164
-- 
+
+## 📂 Estructura del Proyecto
+
+```text
+sistemaGestionBiblioteca/
+├── .gitignore      # Archivos ignorados
+├── README.md       # Documentación
+├── pom.xml         # Configuración Maven
+└── src
+    ├── main        # Código principal de la aplicación
+    │   └── java
+    │       └── app
+    │           └── biblioteca
+    │               ├── recursos
+    │               │   └── Libro.java          # Modelo de Libro
+    │               └── utils
+    │                   └── Estado.java         # Enum de estados
+    │
+    └── test    # Pruebas del proyecto
+        └── java
+            └── app
+                └── biblioteca
+                    └── recursos
+                        └── LibroTest.java      # Pruebas de Libro
+```
+
+---
+
+## 🚀 Instalación y uso el proyecto
+
+1. **Clonar el repositorio**:
+
+```bash
+git clone https://github.com/um-programacion-ii/programacion-2-trabajo-practico-3-abelCarrizo.git
+cd programacion-2-trabajo-practico-3-abelCarrizo/sistemaGestionBiblioteca/
+```
+
+2. **Ejecutar las pruebas**:
+
+Para validar la aplicación con pruebas unitarias (JUnit + Mockito):
+
+```bash
+mvn clean test
+```
+
+✅ Todas las pruebas deben pasar correctamente.
