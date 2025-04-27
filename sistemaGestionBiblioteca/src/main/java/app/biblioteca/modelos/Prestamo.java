@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * Representa un préstamo de un libro en la biblioteca.
  */
-public class Prestamos {
+public class Prestamo {
     private final LocalDate fechaPrestamo;
     private final Libro libro;
 
@@ -16,7 +16,7 @@ public class Prestamos {
      * @param libro el libro que se presta
      * @throws IllegalArgumentException si el libro es null o ya está prestado
      */
-    public Prestamos(Libro libro) {
+    public Prestamo(Libro libro) {
         if (libro == null) {
             throw new IllegalArgumentException("El libro no puede ser null");
         }
