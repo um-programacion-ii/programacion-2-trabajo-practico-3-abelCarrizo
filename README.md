@@ -228,6 +228,7 @@ El uso de Inteligencia Artificial (IA) como herramienta de asistencia en el desa
 - [📌 Objetivo General](#-objetivo-general)
 - [👨‍🎓 Identificación del Alumno](#-identificación-del-alumno)
 - [📂 Estructura del Proyecto](#-estructura-del-proyecto)
+- [🚀 Instalación y uso del proyecto](#-instalación-y-uso-del-proyecto)
 
 ## 📌 Objetivos Generales
 Este proyecto tiene como objetivo desarrollar habilidades en testing unitario utilizando JUnit5 y Mockito en Java. A través de la implementación de un sistema de gestión de biblioteca, se aprenderán a escribir pruebas unitarias efectivas y a utilizar mocks para simular dependencias.
@@ -249,11 +250,12 @@ sistemaGestionBiblioteca/
     │   └── java
     │       └── app
     │           └── biblioteca
-    │               ├── recursos
-    │               │   └── Libro.java          # Modelo de Libro
-    │               └── utils
-    │                   └── Estado.java         # Enum de estados
-    │
+    │               ├── modelos
+    │               │   │── Libro.java          # Modelo de Libro
+    │               │   └── Estado.java         # Enum de estados
+    │               └── servicios
+    │                   └── Categoria.java      # Servicio de Categoria
+    │                   
     └── test    # Pruebas del proyecto
         └── java
             └── app
@@ -264,7 +266,7 @@ sistemaGestionBiblioteca/
 
 ---
 
-## 🚀 Instalación y uso el proyecto
+## 🚀 Instalación y uso del proyecto
 
 1. **Clonar el repositorio**:
 
