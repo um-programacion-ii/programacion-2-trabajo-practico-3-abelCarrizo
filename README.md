@@ -229,6 +229,8 @@ El uso de Inteligencia Artificial (IA) como herramienta de asistencia en el desa
 - [👨‍🎓 Identificación del Alumno](#-identificación-del-alumno)
 - [📂 Estructura del Proyecto](#-estructura-del-proyecto)
 - [🚀 Instalación y uso del proyecto](#-instalación-y-uso-del-proyecto)
+- [✅ Resultados de las pruebas](#-resultados-de-las-pruebas)
+- [🤖 Asistencia de IA en el desarrollo](#-asistencia-de-ia-en-el-desarrollo)
 
 ## 📌 Objetivos Generales
 Este proyecto tiene como objetivo desarrollar habilidades en testing unitario utilizando JUnit5 y Mockito en Java. A través de la implementación de un sistema de gestión de biblioteca, se aprenderán a escribir pruebas unitarias efectivas y a utilizar mocks para simular dependencias.
@@ -291,4 +293,35 @@ Para validar la aplicación con pruebas unitarias (JUnit + Mockito):
 mvn clean test
 ```
 
-✅ Todas las pruebas deben pasar correctamente.
+---
+
+## ✅ Resultados de las pruebas
+
+A partir del comando mencionado en el punto anterior para ejecutar las pruebas se obtuvieron los siguientes resultados:
+
+![Captura de pantalla de los tests exitosos](img/test.png)
+
+Estos resultados verifican la correcta ejecución de los test.
+
+---
+
+## 🤖 Asistencia de IA en el desarrollo
+
+- **Comprender las librerías JUnit y Mockito**  
+  Gracias a la IA logré entender qué son estas herramientas, para qué sirven y cómo encajan en el flujo de pruebas unitarias en Java.
+
+- **Interpretar la documentación oficial**  
+  La IA ayudó a filtrar y resumir los puntos más relevantes de las guías y manuales, resaltando las mejores prácticas y ejemplos de uso.
+
+- **Recomendaciones para filtrar y organizar datos**  
+  Obtuve sugerencias sobre cómo estructurar los tests, estandarizar nombres de casos de prueba y priorizar las validaciones esenciales.
+
+- **Autocompletado de código**  
+  Utilicé la IA para generar rápidamente getters, setters y cadenas de texto repetitivas (por ejemplo, mensajes de error en excepciones), ahorrando tiempo y evitando errores tipográficos.
+
+- **Instanciación de objetos de prueba**  
+  La IA me ayudó a crear un nuevo objeto `Libro` para agilizar la preparación de escenarios.
+
+- **Documentación de la estructura del proyecto**
+  Gracias a la IA puedo presentar la estructura del proyecto de una manera más personalizada y luego de a partir de ella seguir añadiendo nuevas clases.
+  Además, ayudó en la creación de los iconos para cada título.
