@@ -1,8 +1,10 @@
 package app.biblioteca.servicios;
 
 
+import app.biblioteca.modelos.Libro;
 import app.biblioteca.modelos.Prestamo;
 import app.biblioteca.modelos.Usuario;
+import app.biblioteca.modelos.Estado;
 
 /**
  * Servicio para gestionar usuarios y sus préstamos.
@@ -34,6 +36,12 @@ public class GestionUsuarios {
         if (usuario == null) {
             throw new IllegalArgumentException("El usuario no puede ser null");
         }
+
+        Libro libro = catalogo.buscarPorIsbn(isbn);
+        if (libro == null || libro.getEstado() != Estado.DISPONIBLE) {
+            throw new IllegalArgumentException("El libro con ISBN " + isbn + " no está disponible.");
+        }
+
         Prestamo prestamo = sistemaPrestamos.prestarLibro(isbn);
         usuario.agregarPrestamo(prestamo);
     }
