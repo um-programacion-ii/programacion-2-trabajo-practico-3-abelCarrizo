@@ -299,7 +299,7 @@ mvn clean test
 
 A partir del comando mencionado en el punto anterior para ejecutar las pruebas se obtuvieron los siguientes resultados:
 
-![Captura de pantalla de los tests exitosos](img/test.png)
+![Captura de pantalla de los tests exitosos](docs/img/test.png)
 
 Estos resultados verifican la correcta ejecución de los test.
 
