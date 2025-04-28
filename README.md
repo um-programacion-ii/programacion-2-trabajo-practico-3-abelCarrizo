@@ -1,27 +1,24 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jpLeSJQi)
 # Sistema de Gestión de Biblioteca - Práctica de Testing
-
 ![Java](https://img.shields.io/badge/Java-21-orange)
 ![JUnit5](https://img.shields.io/badge/JUnit-5.9.2-green)
 ![Mockito](https://img.shields.io/badge/Mockito-5.3.1-blue)
 ![Maven](https://img.shields.io/badge/Maven-3.9.0-red)
 
+<details>
+<summary>
+    📋<strong>Mostrar consigna completa</strong>
+</summary>
+
 ## Tiempo Estimado y Recomendaciones
 - **Tiempo estimado de realización:** 15 horas
 - **Recomendación:** Se sugiere leer la consigna completa antes de comenzar con el desarrollo para tener una visión general del proyecto y planificar adecuadamente el trabajo.
-
-## Identificación del Alumno
-- **Nombre:** [Nombre del Alumno]
-- **Apellido:** [Apellido del Alumno]
-- **Legajo:** [Número de Legajo]
 
 ## Importante
 - La rama `main` está protegida y no se pueden hacer commits directos sobre ella
 - Todo el trabajo debe realizarse en ramas feature siguiendo el patrón `feature/issue-numero-descripcion`
 - Los cambios deben ser enviados mediante Pull Requests
 - Cada Pull Request debe estar asociado a un Issue específico
-
-## Objetivo
-Este proyecto tiene como objetivo que los estudiantes practiquen y desarrollen habilidades en testing unitario utilizando JUnit5 y Mockito en Java. A través de la implementación de un sistema de gestión de biblioteca, los estudiantes aprenderán a escribir pruebas unitarias efectivas y a utilizar mocks para simular dependencias.
 
 ## Requisitos Previos
 - Java 21 o superior
@@ -225,3 +222,106 @@ El uso de Inteligencia Artificial (IA) como herramienta de asistencia en el desa
 - [Documentación de JUnit5](https://junit.org/junit5/docs/current/user-guide/)
 - [Documentación de Mockito](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
 - [Guía de Maven](https://maven.apache.org/guides/)
+</details>
+
+## 📑 Índice
+- [📌 Objetivo General](#-objetivo-general)
+- [👨‍🎓 Identificación del Alumno](#-identificación-del-alumno)
+- [📂 Estructura del Proyecto](#-estructura-del-proyecto)
+- [🚀 Instalación y uso del proyecto](#-instalación-y-uso-del-proyecto)
+- [✅ Resultados de las pruebas](#-resultados-de-las-pruebas)
+- [🤖 Asistencia de IA en el desarrollo](#-asistencia-de-ia-en-el-desarrollo)
+
+## 📌 Objetivos Generales
+Este proyecto tiene como objetivo desarrollar habilidades en testing unitario utilizando JUnit5 y Mockito en Java. A través de la implementación de un sistema de gestión de biblioteca, se aprenderán a escribir pruebas unitarias efectivas y a utilizar mocks para simular dependencias.
+
+## 👨‍🎓 Identificación del Alumno
+- **Nombre:** Abel
+- **Apellido:** Carrizo
+- **Legajo:** 59164
+
+## 📂 Estructura del Proyecto
+
+```text
+sistemaGestionBiblioteca/
+├── .gitignore      # Archivos ignorados
+├── README.md       # Documentación
+├── pom.xml         # Configuración Maven
+└── src
+    ├── main        # Código principal de la aplicación
+    │   └── java
+    │       └── app
+    │           └── biblioteca
+    │               ├── modelos
+    │               │   │── Libro.java          # Modelo de Libro
+    │               │   │── Estado.java         # Enum de estados
+    │               │   │── Prestamo.java       # Modelo de Prestamo
+    │               │   └── Usuario.java        # Modelo de Usuario
+    │               └── servicios
+    │                   │── Catalogo.java           # Servicio de Catalogo
+    │                   │── GestionUsuarios.java    # Servicio de Gestion de Usuarios
+    │                   └── SistemaPrestamos.java   # Servicio de Prestamos
+    │                   
+    └── test    # Pruebas del proyecto
+        └── java
+            └── app
+                └── biblioteca
+                    ├── modelos
+                    │   └── LibroTest.java      # Pruebas de Libro
+                    └── servicios
+                        │── CatalogoTest.java               # Pruebas de Catalogo
+                        │── GestionUsuariosPruebas.java     # Pruebas de Gestion de Usuarios
+                        └── SistemaPrestamosTest.java       # Pruebas de Sistema de Prestamos
+```
+
+---
+
+## 🚀 Instalación y uso del proyecto
+
+1. **Clonar el repositorio**:
+
+```bash
+git clone https://github.com/um-programacion-ii/programacion-2-trabajo-practico-3-abelCarrizo.git
+cd programacion-2-trabajo-practico-3-abelCarrizo/sistemaGestionBiblioteca/
+```
+
+2. **Ejecutar las pruebas**:
+
+Para validar la aplicación con pruebas unitarias (JUnit + Mockito):
+
+```bash
+mvn clean test
+```
+
+---
+
+## ✅ Resultados de las pruebas
+
+A partir del comando mencionado en el punto anterior para ejecutar las pruebas se obtuvieron los siguientes resultados:
+
+![Captura de pantalla de los tests exitosos](docs/img/test.png)
+
+Estos resultados verifican la correcta ejecución de los test.
+
+---
+
+## 🤖 Asistencia de IA en el desarrollo
+
+- **Comprender las librerías JUnit y Mockito**  
+  Gracias a la IA logré entender qué son estas herramientas, para qué sirven y cómo encajan en el flujo de pruebas unitarias en Java.
+
+- **Interpretar la documentación oficial**  
+  La IA ayudó a filtrar y resumir los puntos más relevantes de las guías y manuales, resaltando las mejores prácticas y ejemplos de uso.
+
+- **Recomendaciones para filtrar y organizar datos**  
+  Obtuve sugerencias sobre cómo estructurar los tests, estandarizar nombres de casos de prueba y priorizar las validaciones esenciales.
+
+- **Autocompletado de código**  
+  Utilicé la IA para generar rápidamente getters, setters y cadenas de texto repetitivas (por ejemplo, mensajes de error en excepciones), ahorrando tiempo y evitando errores tipográficos.
+
+- **Instanciación de objetos de prueba**  
+  La IA me ayudó a crear un nuevo objeto `Libro` para agilizar la preparación de escenarios.
+
+- **Documentación de la estructura del proyecto**
+  Gracias a la IA puedo presentar la estructura del proyecto de una manera más personalizada y luego de a partir de ella seguir añadiendo nuevas clases.
+  Además, ayudó en la creación de los iconos para cada título.
